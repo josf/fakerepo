@@ -20,5 +20,11 @@ for my $a (@aa) {
     say $a * ++$a;
     say $a * $a++;
     say "next!";
+
+
+    say $a;
+    say $a * ++$a;
+    say $a * $a++;
+    say "next!";
 }
 
